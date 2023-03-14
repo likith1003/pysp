@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+{% block body %}
+    <div id="frm">
+        <h1>Register as a Fresher</h1> <br>
+        <a href="/fresher"> <img src="../static/special-offer.jpg" alt=""></a> <br>
+        <h1>Register as a Experience</h1> <br>
+        <a href="/exp"> <img src="../static/limited-offer.png" alt=""></a>
+    </div>
+    <style>
+        /* #frm{
+
+        }        */
+        #table{
+        font-family: Calibri; 
+        color:white; 
+        font-size: 11pt; 
+        font-style: normal;
+        font-weight: bold;
+        text-align: center;
+        background-color: SlateBlue; 
+        border-collapse: collapse; 
+        border: 2px solid navy
+        }
+        #table.inner{
+        border: 0px
+        }
+    </style>
+    {% endblock body %}
